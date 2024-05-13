@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.magicleap.appsim": {
+      "tarball": {
+        "hash": "633d08289831",
+        "mtime": 1705663846342,
+        "size": 21965939,
+        "localPath": "C:\\Users\\winsh\\MagicLeap\\tools\\app_sim_unity\\v3.8.0.20231208\\com.magicleap.appsim.tgz"
+      }
+    }
+  }
+}

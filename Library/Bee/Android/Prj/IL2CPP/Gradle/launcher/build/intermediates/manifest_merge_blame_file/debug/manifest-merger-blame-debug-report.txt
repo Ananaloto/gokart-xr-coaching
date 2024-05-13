@@ -1,0 +1,221 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.UnityTechnologies.com.unity.template.urpblank"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-65
+19-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-62
+20    <uses-permission android:name="com.magicleap.permission.EYE_TRACKING" />
+20-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-77
+20-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-74
+21    <uses-permission android:name="com.magicleap.permission.EYE_CAMERA" />
+21-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-75
+21-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-72
+22    <uses-permission android:name="com.magicleap.permission.MARKER_TRACKING" />
+22-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-80
+22-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-77
+23    <uses-permission android:name="com.magicleap.permission.SPATIAL_ANCHOR" />
+23-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-79
+23-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:22-76
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-67
+24-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-64
+25
+26    <uses-feature
+26-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-19:35
+27        android:name="android.hardware.vulkan.version"
+27-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-55
+28        android:required="true" />
+28-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-32
+29    <uses-feature
+29-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:5-22:36
+30        android:name="android.hardware.touchscreen"
+30-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-52
+31        android:required="false" />
+31-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-33
+32    <uses-feature
+32-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:5-25:36
+33        android:name="android.hardware.touchscreen.multitouch"
+33-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-63
+34        android:required="false" />
+34-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-33
+35    <uses-feature
+35-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:5-28:36
+36        android:name="android.hardware.touchscreen.multitouch.distinct"
+36-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-72
+37        android:required="false" />
+37-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-33
+38
+39    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+39-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:5-76
+39-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:22-73
+40    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+40-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:5-83
+40-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:22-80
+41
+42    <queries>
+42-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:5-35:15
+43        <provider android:authorities="org.khronos.openxr.runtime_broker;org.khronos.openxr.system_runtime_broker" />
+43-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-118
+43-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:19-115
+44        <!-- so client-side code of runtime/layers can talk to their service sides -->
+45        <intent>
+45-->[:openxr_loader:] C:\Users\winsh\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:18:5-20:14
+46            <action android:name="org.khronos.openxr.OpenXRRuntimeService" />
+46-->[:openxr_loader:] C:\Users\winsh\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:19:7-72
+46-->[:openxr_loader:] C:\Users\winsh\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:19:15-69
+47        </intent>
+48        <intent>
+48-->[:openxr_loader:] C:\Users\winsh\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:21:5-23:14
+49            <action android:name="org.khronos.openxr.OpenXRApiLayerService" />
+49-->[:openxr_loader:] C:\Users\winsh\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:22:7-73
+49-->[:openxr_loader:] C:\Users\winsh\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:22:15-70
+50        </intent>
+51    </queries>
+52
+53    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+54    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+55    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+56
+57    <uses-feature
+57-->[:unityLibrary:xrmanifest.androidlib] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-12:31
+58        android:name="android.hardware.vr.headtracking"
+58-->[:unityLibrary:xrmanifest.androidlib] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-56
+59        android:required="true"
+59-->[:unityLibrary:xrmanifest.androidlib] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-32
+60        android:version="1" />
+60-->[:unityLibrary:xrmanifest.androidlib] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-28
+61
+62    <application
+62-->C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+63        android:debuggable="true"
+64        android:extractNativeLibs="true"
+64-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:18-50
+65        android:icon="@mipmap/app_icon"
+65-->C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+66        android:label="@string/app_name" >
+66-->C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+67        <meta-data
+67-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:9-40:33
+68            android:name="unity.splash-mode"
+68-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-45
+69            android:value="0" />
+69-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-30
+70        <meta-data
+70-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-43:36
+71            android:name="unity.splash-enable"
+71-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-47
+72            android:value="True" />
+72-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-33
+73        <meta-data
+73-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:9-46:36
+74            android:name="unity.launch-fullscreen"
+74-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-51
+75            android:value="True" />
+75-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-33
+76        <meta-data
+76-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:9-49:50
+77            android:name="notch.config"
+77-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-40
+78            android:value="portrait|landscape" />
+78-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-47
+79        <meta-data
+79-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:9-52:36
+80            android:name="unity.auto-report-fully-drawn"
+80-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-57
+81            android:value="true" />
+81-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-33
+82
+83        <activity
+83-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:9-81:20
+84            android:name="com.unity3d.player.UnityPlayerActivity"
+84-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-66
+85            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+85-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:13-194
+86            android:exported="true"
+86-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:13-36
+87            android:hardwareAccelerated="false"
+87-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:13-48
+88            android:launchMode="singleTask"
+88-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:13-44
+89            android:resizeableActivity="false"
+89-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:13-47
+90            android:screenOrientation="fullUser"
+90-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:13-49
+91            android:theme="@style/UnityThemeSelector" >
+91-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-54
+92            <intent-filter>
+92-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:13-70:29
+93                <category android:name="android.intent.category.LAUNCHER" />
+93-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:17-77
+93-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:27-74
+94
+95                <action android:name="android.intent.action.MAIN" />
+95-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:17-69
+95-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:25-66
+96
+97                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+97-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:68:17-93
+97-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:68:27-90
+98                <category android:name="com.oculus.intent.category.VR" />
+98-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:69:17-74
+98-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:69:27-71
+99            </intent-filter>
+100
+101            <meta-data
+101-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:72:13-74:40
+102                android:name="unityplayer.UnityActivity"
+102-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:73:17-57
+103                android:value="true" />
+103-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:74:17-37
+104            <meta-data
+104-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:75:13-77:40
+105                android:name="notch_support"
+105-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:76:17-45
+106                android:value="true" />
+106-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:77:17-37
+107            <meta-data
+107-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:78:13-80:40
+108                android:name="com.magicleap.augmented_reality_only"
+108-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:79:17-68
+109                android:value="true" />
+109-->[:unityLibrary] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:80:17-37
+110            <meta-data
+110-->[:unityLibrary:xrmanifest.androidlib] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-18:40
+111                android:name="com.oculus.vr.focusaware"
+111-->[:unityLibrary:xrmanifest.androidlib] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-56
+112                android:value="true" />
+112-->[:unityLibrary:xrmanifest.androidlib] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-37
+113        </activity>
+114
+115        <meta-data
+115-->[:unityLibrary:xrmanifest.androidlib] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-23:52
+116            android:name="com.oculus.supportedDevices"
+116-->[:unityLibrary:xrmanifest.androidlib] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-55
+117            android:value="quest|quest2|cambria" />
+117-->[:unityLibrary:xrmanifest.androidlib] C:\SP-XR\sp-xr_coaching\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-49
+118    </application>
+119
+120</manifest>
