@@ -1,5 +1,5 @@
 # gokart-coaching
-This project is done in IDSC-Frazzoli Groupe at ETH Zurich.
+This project was done in IDSC-Frazzoli Groupe at ETH Zurich.
 
 This package focuses on exploring the improvement of coaching experience for inexperienced drivers in karting with more comprehensive feedback. This involves the implementation of an immersive coaching application designed for use with Mixed Reality headsets. 
 
