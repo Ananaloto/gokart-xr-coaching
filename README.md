@@ -1,5 +1,7 @@
 # gokart-coaching
-This package focuses on exploring the improvement of coaching experience for inexperienced drivers in karting with more comprehensive feedback. This involves the implementation of an immersive coaching application designed for use with Mixed Reality headsets. This project is done in IDSC-Frazzoli Groupe at ETH Zurich.
+This project is done in IDSC-Frazzoli Groupe at ETH Zurich.
+
+This package focuses on exploring the improvement of coaching experience for inexperienced drivers in karting with more comprehensive feedback. This involves the implementation of an immersive coaching application designed for use with Mixed Reality headsets. 
 
 This package’s contributions include developing an integrated hardware and software framework for head-worn displays with the go-kart platform, implementing head-worn display localization, developing applications for virtual feedback, and validating the effectiveness of immersive coaching through Mixed Reality technology.
 
